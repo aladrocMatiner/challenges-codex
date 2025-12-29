@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-prog-01"
+    category: "Programming"
+    description: "Sum all numbers divisible by 3 from the input. Difficulty: Basic."
+    flag: "flag{sum-63}"
+    attachments:
+      - ./input.txt

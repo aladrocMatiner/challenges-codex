@@ -1,0 +1,4 @@
+FW_VER=1.0
+UART=115200
+flag{edu-iot-firmware}
+END

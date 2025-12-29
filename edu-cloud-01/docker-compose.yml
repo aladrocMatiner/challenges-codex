@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-cloud-01"
+    category: "Cloud / DevOps"
+    description: "Decode the secret from a Kubernetes manifest. Difficulty: Medium."
+    flag: "flag{edu-cloud-secret}"
+    attachments:
+      - ./k8s-secret.yaml

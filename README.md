@@ -8,6 +8,30 @@ A curated, beginner‑friendly set of CRL challenges organized by category. Each
 - `edu-web-01`: View‑source basics (flag hidden in HTML).
 - `edu-web-02`: Cookie inspection (flag set as a cookie).
 
+### Steganography
+- `edu-stego-01`: Hidden strings inside an image file.
+
+### Mobile
+- `edu-mobile-01`: APK resource inspection.
+
+### Cloud / DevOps
+- `edu-cloud-01`: Decode a Kubernetes secret.
+
+### Hardware / IoT
+- `edu-iot-01`: Extract strings from firmware.
+
+### Blockchain
+- `edu-blockchain-01`: Decode a transaction memo.
+
+### Network
+- `edu-network-01`: Find a flag inside a small PCAP.
+
+### Programming
+- `edu-prog-01`: Simple numeric filtering and sum.
+
+### Blue-Team / DFIR
+- `edu-dfir-01`: Identify top attacker IP from logs.
+
 ### Crypto
 - `edu-crypto-01`: Caesar cipher decode.
 - `edu-crypto-02`: Single‑byte XOR decode.

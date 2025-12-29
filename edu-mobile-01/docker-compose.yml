@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-mobile-01"
+    category: "Mobile"
+    description: "Inspect the APK and find the flag in resources. Difficulty: Basic."
+    flag: "flag{edu-mobile-apk}"
+    attachments:
+      - ./app.apk

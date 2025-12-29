@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-stego-01"
+    category: "Steganography"
+    description: "Basic: extract hidden strings from the image file. Difficulty: Basic."
+    flag: "flag{edu-stego-basic}"
+    attachments:
+      - ./secret.png

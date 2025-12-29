@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-blockchain-01"
+    category: "Blockchain"
+    description: "Decode the hex memo in the transaction. Difficulty: Basic."
+    flag: "flag{edu-blockchain-memo}"
+    attachments:
+      - ./block.json

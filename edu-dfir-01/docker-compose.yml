@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-dfir-01"
+    category: "Blue-Team / DFIR"
+    description: "Identify the most frequent attacker IP in auth.log. Difficulty: Medium."
+    flag: "flag{203.0.113.50}"
+    attachments:
+      - ./auth.log
