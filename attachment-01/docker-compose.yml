@@ -1,7 +1,0 @@
-x-challenges:
-  FLAG:
-    name: "mix-attach-01"
-    description: "Download the file and find the flag inside."
-    flag: "flag{mix-attach-01}"
-    attachments:
-      - ./evidence.txt

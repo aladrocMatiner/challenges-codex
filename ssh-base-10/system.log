@@ -1,5 +1,0 @@
-2025-01-01 10:00:01 INFO Service started
-2025-01-01 10:00:05 WARN Slow response
-2025-01-01 10:00:12 INFO User login ok
-2025-01-01 10:00:20 INFO flag found: flag{codex-attach-10-log}
-2025-01-01 10:00:30 INFO Shutdown complete

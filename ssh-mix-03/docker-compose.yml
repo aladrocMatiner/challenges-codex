@@ -1,7 +1,0 @@
-x-challenges:
-  FLAG:
-    name: "codex-attach-13-zip"
-    description: "Unzip the file and read the flag inside."
-    flag: "flag{codex-attach-13-zip}"
-    attachments:
-      - ./clue.zip

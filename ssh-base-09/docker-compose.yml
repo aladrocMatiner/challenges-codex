@@ -1,7 +1,0 @@
-x-challenges:
-  FLAG:
-    name: "codex-attach-09-reverse"
-    description: "Reverse the text to reveal the flag."
-    flag: "flag{codex-attach-09-reverse}"
-    attachments:
-      - ./encoded.txt

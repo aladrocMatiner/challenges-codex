@@ -1,7 +1,0 @@
-x-challenges:
-  FLAG:
-    name: "codex-attach-06-base64"
-    description: "Decode the message to reveal the flag."
-    flag: "flag{codex-attach-06-base64}"
-    attachments:
-      - ./encoded.txt

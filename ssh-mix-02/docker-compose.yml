@@ -1,7 +1,0 @@
-x-challenges:
-  FLAG:
-    name: "codex-attach-12-csv"
-    description: "Open the CSV file and locate the flag column."
-    flag: "flag{codex-attach-12-csv}"
-    attachments:
-      - ./data.csv
