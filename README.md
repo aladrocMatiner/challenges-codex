@@ -31,7 +31,7 @@ A curated, beginner‑friendly set of CRL challenges organized by category. Each
 ## How This Repo Is Used
 These challenges are consumed by the main deployment repo:
 
-- Main repo: `b21-deployment-cyber-range`
+- Main repo: `bv21-deployment-cyber-range`
 - Blueprint: `crl/blueprints/generated/codex-edu.yml`
 - Stored event: `crl/stored-events/generated/codex-edu.yml`
 
