@@ -1,0 +1,7 @@
+x-challenges:
+  FLAG:
+    name: "codex-attach-08-rot13"
+    description: "Decode the ROT13 text to find the flag."
+    flag: "flag{codex-attach-08-rot13}"
+    attachments:
+      - ./encoded.txt

@@ -1,0 +1,7 @@
+x-challenges:
+  FLAG:
+    name: "codex-attach-11-json"
+    description: "Open the JSON file and find the flag field."
+    flag: "flag{codex-attach-11-json}"
+    attachments:
+      - ./data.json

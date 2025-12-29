@@ -1,0 +1,2 @@
+You found a note. The flag is below:
+flag{mix-attach-02}

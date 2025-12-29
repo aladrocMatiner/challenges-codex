@@ -1,0 +1,7 @@
+x-challenges:
+  FLAG:
+    name: "codex-attach-07-hex"
+    description: "Convert the hex string back to text to get the flag."
+    flag: "flag{codex-attach-07-hex}"
+    attachments:
+      - ./encoded.txt

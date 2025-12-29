@@ -1,0 +1,7 @@
+x-challenges:
+  FLAG:
+    name: "codex-attach-10-log"
+    description: "Scan the log file and extract the flag."
+    flag: "flag{codex-attach-10-log}"
+    attachments:
+      - ./system.log

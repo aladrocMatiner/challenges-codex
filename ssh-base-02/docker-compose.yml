@@ -1,0 +1,24 @@
+x-challenges:
+  FLAGA:
+    name: "codex-combined-02-ssh"
+    description: "Log in via SSH and locate the first flag on the server."
+    connection-info: "ssh -p {PORT} root@{HOST}"
+    port-id: "1701"
+    score: 200
+  FLAGB:
+    name: "codex-combined-02-web"
+    description: "Open the web page and find the second flag."
+    connection-info: "http://{HOST}:{PORT}"
+    port-id: "1702"
+    score: 200
+
+services:
+  app:
+    image: docker.cs.kau.se/csma/cyber-range/public-challenges/examples/combined:25.1
+    environment:
+      ROOTPWD: "password"
+      FLAGA: "crl{FLAG}"
+      FLAGB: "crl{FLAG}"
+    ports:
+      - "1701:22/tcp"
+      - "1702:80/tcp"

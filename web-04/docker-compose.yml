@@ -1,0 +1,17 @@
+x-challenges:
+  FLAGB:
+    name: "mix-web-04"
+    description: "Find the flag on the web page served by the challenge."
+    connection-info: "http://{HOST}:{PORT}"
+    port-id: "1604"
+    score: 150
+
+services:
+  app:
+    image: docker.cs.kau.se/csma/cyber-range/public-challenges/examples/combined:25.1
+    environment:
+      ROOTPWD: "password"
+      FLAGA: "static-placeholder"
+      FLAGB: "crl{FLAG}"
+    ports:
+      - "1604:80/tcp"

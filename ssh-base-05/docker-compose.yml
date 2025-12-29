@@ -1,0 +1,21 @@
+x-challenges:
+  FLAG:
+    name: "codex-multi-05"
+    description: "Find the backend password on the frontend and use it to retrieve the flag."
+    connection-info: "ssh -p {PORT} root@{HOST}"
+    port-id: "1706"
+    score: 180
+
+services:
+  backend:
+    image: docker.cs.kau.se/csma/cyber-range/public-challenges/examples/multi-service-backend:25.1
+    environment:
+      FLAG: "crl{FLAG}"
+      BACKENDPASS: "CRL{PASSWORD}"
+  frontend:
+    image: docker.cs.kau.se/csma/cyber-range/public-challenges/examples/multi-service-frontend:25.1
+    environment:
+      ROOTPWD: "password"
+      BACKENDPASS: "CRL{LINK:backend:BACKENDPASS}"
+    ports:
+      - "1706:22/tcp"
