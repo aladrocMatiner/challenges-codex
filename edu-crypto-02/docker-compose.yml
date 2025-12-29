@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-crypto-02"
+    category: "Crypto"
+    description: "Single-byte XOR. Find the key and decode the hex."
+    flag: "flag{edu-crypto-xor}"
+    attachments:
+      - ./cipher.hex

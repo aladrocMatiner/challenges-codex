@@ -1,0 +1,5 @@
+handle: bluefox | city: Malaga | note: loves sunsets
+handle: quietowl | city: Gothenburg | note: likes maps
+handle: neonbear | city: Riga | note: coffee lover
+handle: civic-ghost | city: Valencia | note: has the flag in base64
+handle: civic-ghost | drop: ZmxhZ3tlZHUtb3NpbnQtaHVudH0=

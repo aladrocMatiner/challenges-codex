@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-osint-01"
+    category: "OSINT"
+    description: "Search the profiles dump to find the hidden clue and decode it."
+    flag: "flag{edu-osint-hunt}"
+    attachments:
+      - ./profiles.txt

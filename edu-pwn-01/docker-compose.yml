@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-pwn-01"
+    category: "Pwn"
+    description: "Overflow the buffer to call the win() function and print the flag."
+    flag: "flag{edu-pwn-bof}"
+    attachments:
+      - ./pwn01

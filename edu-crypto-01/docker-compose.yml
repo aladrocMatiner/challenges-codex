@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-crypto-01"
+    category: "Crypto"
+    description: "A Caesar cipher hides the flag. Decode it."
+    flag: "flag{edu-crypto-caesar}"
+    attachments:
+      - ./cipher.txt

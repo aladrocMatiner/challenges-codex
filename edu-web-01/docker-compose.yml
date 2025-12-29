@@ -1,0 +1,17 @@
+x-challenges:
+  FLAG:
+    name: "edu-web-01"
+    category: "Web"
+    description: "Find the hidden flag in the web page (hint: view the source)."
+    connection-info: "http://{HOST}:{PORT}"
+    port-id: "1811"
+    score: 150
+
+services:
+  web:
+    image: python:3.11-alpine
+    environment:
+      FLAG: "crl{FLAG}"
+    command: sh -c "mkdir -p /srv; printf '<html><body><h1>Welcome</h1><!-- %s --><p>Nothing to see here...</p></body></html>' \"$FLAG\" > /srv/index.html; python -m http.server 8080 --directory /srv"
+    ports:
+      - "1811:8080/tcp"

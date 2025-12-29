@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-reverse-01"
+    category: "Reverse Engineering"
+    description: "Inspect the binary to find the hidden flag string."
+    flag: "flag{edu-reverse-strings}"
+    attachments:
+      - ./rev01

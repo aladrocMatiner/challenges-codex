@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-misc-01"
+    category: "Misc"
+    description: "Take the first letter of each word to reveal the flag text."
+    flag: "flag{edumiscacrostic}"
+    attachments:
+      - ./poem.txt

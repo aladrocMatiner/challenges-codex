@@ -1,0 +1,17 @@
+x-challenges:
+  FLAG:
+    name: "edu-web-02"
+    category: "Web"
+    description: "The flag is stored in a cookie. Inspect your browser cookies."
+    connection-info: "http://{HOST}:{PORT}"
+    port-id: "1812"
+    score: 180
+
+services:
+  web:
+    image: python:3.11-alpine
+    environment:
+      FLAG: "crl{FLAG}"
+    command: sh -c "mkdir -p /srv; cat > /srv/server.py <<'PY'\nfrom http.server import BaseHTTPRequestHandler, HTTPServer\nimport os\n\nclass Handler(BaseHTTPRequestHandler):\n    def do_GET(self):\n        flag = os.environ.get('FLAG','')\n        self.send_response(200)\n        self.send_header('Content-type','text/html')\n        self.send_header('Set-Cookie', f'ctf_flag={flag}; Path=/')\n        self.end_headers()\n        self.wfile.write(b'<h1>Cookie Time</h1><p>The flag is in a cookie.</p>')\n\nHTTPServer(('0.0.0.0', 8080), Handler).serve_forever()\nPY\npython /srv/server.py"
+    ports:
+      - "1812:8080/tcp"

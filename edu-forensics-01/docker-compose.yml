@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-forensics-01"
+    category: "Forensics"
+    description: "Inspect the log and decode the hidden payload."
+    flag: "flag{edu-forensics-log}"
+    attachments:
+      - ./system.log

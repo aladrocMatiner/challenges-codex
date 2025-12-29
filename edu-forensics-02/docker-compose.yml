@@ -1,0 +1,8 @@
+x-challenges:
+  FLAG:
+    name: "edu-forensics-02"
+    category: "Forensics"
+    description: "Analyze the image file and find the embedded flag."
+    flag: "flag{edu-forensics-image}"
+    attachments:
+      - ./evidence.png
